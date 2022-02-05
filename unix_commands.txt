@@ -1,0 +1,10 @@
+Unix Commands
+
+For each command, call the command without the `$`. The tick marks (`) represent code, and the dollar sign (`$`) indicates code to be run on the command line. Angle brackets (`<>`) indicate required parameters and brackets (`[]`) indicate optional parameters.
+
+- `$ cd [dir]`: "change directory" to the given directory. If no directory is given, changes to the home directory. Parent directory: `$ cd ..`
+- `$ ls [dir]`: "lists" the contents of the given directory. If no directory is given, lists the files in the current directory.
+- `$ rm <file>`: "removes" the given file. The file name should be the path to the given file, e.g. `$ rm foo/bar.txt` means delete the `bar.txt` file in the `foo/` directory.
+- `$ mkdir <name>`: "make directory" with the given name.
+- `$ man <command>`: Consult the "manual" for the given command. If you forget what a command does, use this command, e.g. `$ man cd` will display the help page for the `cd` command. To exit, type `q`. To scroll, use the arrow keys.
+- `$ python [file]`: Runs the given Python file. If no file is given, enters the Python interpreter.
